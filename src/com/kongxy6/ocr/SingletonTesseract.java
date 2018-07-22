@@ -10,9 +10,9 @@ public class SingletonTesseract {
 
 	private Tesseract1 tesseract;
 
-	public SingletonTesseract() {
+	private SingletonTesseract() {
 		// TODO Auto-generated constructor stub
-		tesseract = new Tesseract1();// 首次加载资源较为耗时
+		tesseract = new Tesseract1();// 锟阶次硷拷锟斤拷锟斤拷源锟斤拷为锟斤拷时
 		tesseract.setDatapath(new File(".").getPath());
 	}
 
